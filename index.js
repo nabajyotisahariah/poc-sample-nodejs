@@ -7,8 +7,13 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok' });
 });
 
+app.get('/v3', (req, res) => {
+  res.json({ message: 'Welcome to Nodejs application v3 deployment' });
+});
+
+
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Nodejs application 21st April 2026' });
+  res.json({ message: 'Welcome to Nodejs application deployment' });
 });
 
 
