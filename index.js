@@ -8,7 +8,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Nodejs application' });
+  res.json({ message: 'Welcome to Nodejs application 21st April 2026' });
 });
 
 
