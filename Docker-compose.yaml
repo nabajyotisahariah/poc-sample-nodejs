@@ -1,0 +1,12 @@
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    reset: unless-stopped
+    ports:
+      - "8000:8000"
+    #environment:
+    #  - SPRING_PROFILES_ACTIVE=prod
+    #depends_on:
+    #  - db
